@@ -1,0 +1,31 @@
+.artical_item {
+    display: grid;
+    grid-template-rows: auto max-content;
+    height: 250px;
+    width: 300px;
+    border: 2px solid grey;
+}
+
+.img_artical {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.artical_name {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.list_artical {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    height: 100%;
+    gap: 20px;
+    overflow: auto;
+    justify-content: space-around;
+}
